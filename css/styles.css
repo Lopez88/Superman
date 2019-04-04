@@ -14,6 +14,7 @@ body {
     z-index: 1;
 }
 
+
 .logo {
     height: 100px;
     width: 100px;
@@ -198,4 +199,31 @@ input {
     width: 45%;
     float: left;
     margin-left: 25px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  }
+
+#superman {
+  position: absolute;
+  bottom: 150px;
+  right: 50px;
+  -webkit-animation:
+    fly 0.5s 0s infinite alternate;
+}
+
+/*
+Animation
+*/
+
+@-webkit-keyframes pan {
+  from { background-position: 0 0; }
+  to { background-position: -2000px 0;    }
+}
+
+@-webkit-keyframes fly {
+  from { top: 50px; }
+  to { top: 65px; }
 }
