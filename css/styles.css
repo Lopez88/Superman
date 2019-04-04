@@ -1,6 +1,6 @@
 body {
     margin: 0 auto;
-    font-family: 'Roboto Slab', serif;
+    font-family: "Comic Sans MS", cursive, sans-serif
 }
 
 
@@ -23,10 +23,12 @@ body {
 .nav-list {
     float: right;
     margin-right: 30px;
+    color: red;
     
 }
 
 .list-item {
+    color: yellow;
     float: left;
     list-style-type: none;
     padding-right: 20px;
@@ -34,70 +36,84 @@ body {
 }
 
 .list-item a {
-    text-decoration: none;
+    color: red;
     
 }
-
-.list-item a {
+.list-item a:hover {
+    color: yellow;
+    }
     
-}
-
-/*.hero {*/
-/*    height: 500px;*/
-    
-/*}*/
-
 .hero {
-    background-image: url('../img/space.jpg');
-    height: 700px;
+    background-image: url('../img/jor-el.jpg');
+    height: 800px;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    /*position: absolute;*/
-    /*top: 490px;*/
-    /*left: 42%;*/
     box-shadow: 10px 10px #fff;
-    margin-top: 75px;
+    margin-top: 70px;
 }
 
 h1 {
-    background-color: #000099;
+    
     color: red;
     border: 3px yellow;
     height: 100px;
     width: 300px;
+    float: left;
     top: 90px;
     left: 42%;
     text-align: center;
-    text-shadow: 2px 3px #fff;
+    text-shadow: 2px 3px yellow;
     font-family: 'Lateef', cursive;
 }
 
 /*END OF HERO*/
 
+
 .box {
-    height: 700px;
+    height: 850px;
     width: 100%;
     margin-top: 100px;
+    
 }
 
-.content-image, .content-text, .content-alternate {
+.content {
     height: 700px;
-    width: 30%;
+    width: 28%;
     border: 3px solid red;
+    float: left;
     overflow: hidden;
     padding: 25px 20px 25px 20px;
     margin-left: 15px;
     
 }
 
-.content-text {
-    clear: left;
+.image {
+    height: 700px;
+    width: 100%;
+    display: block;
+    margin: auto;
 }
 
-.content-alternate {
-    clear: left;
+
+.text {
+    height: 700px;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.alternate {
+    height: 700px;
+    width: 100%;
+    display: block;
+    margin: auto;
     
+}
+
+.blessings {
+    height: 300px;
+    width: 200px;
 }
 
 .footer {
@@ -105,6 +121,7 @@ h1 {
     height: 100px;
     width: 100%;
     overflow: hidden;
+    text-align: center;
 }
 
 .footer-col {
@@ -126,17 +143,19 @@ input {
 .fa-facebook-square{
     font-size: 3em;
     color: yellow;
+    margin: 0 auto;
 }
 
 .fa-instagram {
     font-size: 3em;
     color: yellow;
+    margin: 0 auto;
 }
 
 /*About Styles*/
 
 .container {
-    height: 700px;
+    height: 790px;
     width: 100%;
     margin-top: 100px;
 }
@@ -153,7 +172,7 @@ input {
 
 .col-img {
     height: 400px;
-    width: 400px;
+    width: 380px;
     display: block;
     margin: auto;
 }
@@ -172,7 +191,7 @@ input {
 .contact-container {
     width: 100%;
     height: 700px;
-    margin-top: 120px;
+    margin-top: 150px;
 }
 
 .contact-container iframe {
