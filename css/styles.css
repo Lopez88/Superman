@@ -207,9 +207,9 @@ input {
   }
 
 #superman {
-  position: absolute;
+  position: relative;
   bottom: 150px;
-  right: 50px;
+  right: -200px;
   -webkit-animation:
     fly 0.5s 0s infinite alternate;
 }
